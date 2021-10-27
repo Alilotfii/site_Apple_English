@@ -98,6 +98,7 @@ a {
 .main-header .nav-bar ul li:hover>a {
     color: floralwhite;
     transition: .2s;
+    padding: 2rem 0;
 }
 
 /*  logo Apple nic */
@@ -125,22 +126,23 @@ a {
     height: 5rem;
 }
 
+.The_bar_below_the_header .containar .heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #888;
+}
+
 .The_bar_below_the_header .containar .title {
     font-size: 3rem;
     padding-top: 1rem;
-    border-bottom: 2px solid #888;
     padding-bottom: .5rem;
 }
-
-.The_bar_below_the_header .containar .buy_iphone a {
-    color: #fff;
-}
-
-.The_bar_below_the_header .containar .buy_iphone {
+.The_bar_below_the_header .containar .heading .buy_iphone {
     background-color: #035397;
-    float: right;
     border-radius: 4rem;
-    padding: .5rem 1rem;
+    padding: 1rem 2rem;
+    color: #fff;
 }
 
 .The_bar_below_the_header .images {
