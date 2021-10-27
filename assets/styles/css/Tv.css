@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-size: 10px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    direction: ltr;
+    background-color: #f2f2f2;
+}
+
+::selection {
+    color: #111;
+    background-color: lightgray;
+}
+
+a {
+    text-decoration: none;
+}
+
+.containar {
+    margin: 0 auto;
+    max-width: 98rem;
+}
+
+/*  main header  */
+
+.main-header {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.main-header .nav-bar {
+    text-align: center;
+}
+
+.main-header .nav-bar ul li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 1.5rem;
+    margin: 2rem 3.5rem;
+    transition: none;
+}
+
+.main-header .nav-bar ul li a {
+    color: #c0c0c0;
+}
+
+.main-header .nav-bar :hover {
+    color: #fff;
+    transition: .5s;
+}
+
+/*  logo Apple nic */
+
+.main-header .nav-bar .logo-Apple-nic {
+    float: left;
+    height: 2rem;
+    margin: 2rem 0;
+}
+
+.main-header .nav-bar .logo-Apple-nic img {
+    height: 100%;
+}
+
+/*  main page */
+
+.main_page {
+    padding-top: 6rem;
+}
+/* section tv Apple */
+.section_tv_Apple .content{
+display: inline-block;
+}
+.section_tv_Apple .content span{
+    text-align: center;
+}

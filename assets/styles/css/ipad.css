@@ -1,0 +1,276 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-size: 10px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    direction: ltr;
+    background-color: #fff;
+}
+
+::selection {
+    color: #111;
+    background-color: lightgray;
+}
+
+a {
+    text-decoration: none;
+}
+
+.containar {
+    margin: 0 auto;
+    max-width: 98rem;
+}
+
+/*  main header  */
+
+.main-header {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.main-header .nav-bar {
+    text-align: center;
+}
+
+.main-header .nav-bar ul li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 1.5rem;
+    margin: 2rem 3.5rem;
+    transition: none;
+}
+
+.main-header .nav-bar ul li a {
+    color: #c0c0c0;
+}
+
+.main-header .nav-bar :hover {
+    color: #fff;
+    transition: .5s;
+}
+
+/*  logo Apple nic */
+
+.main-header .nav-bar .logo-Apple-nic {
+    float: left;
+    height: 2rem;
+    margin: 2rem 0;
+}
+
+.main-header .nav-bar .logo-Apple-nic img {
+    height: 100%;
+}
+
+/*  main page */
+
+.main_page {
+    padding-top: 5.5rem;
+}
+
+/*  section ipad pro  */
+
+.section_ipad_pro .image {
+    float: right;
+    margin-top: 3rem;
+    padding-bottom: 10.35rem;
+}
+
+.section_ipad_pro .containar .title {
+    display: inline-block;
+    margin-top: 20rem;
+    font-size: 5.6rem;
+    line-height: 1.07143;
+    font-weight: 600;
+}
+
+.section_ipad_pro .containar span {
+    font-size: 1.3rem;
+    color: goldenrod;
+}
+
+.section_ipad_pro .containar .text {
+    margin-top: 1rem;
+    display: inline-block;
+    width: 20%;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.section_ipad_pro .containar .price {
+    margin: 3rem 0;
+    font-size: 1.5rem;
+}
+
+.section_ipad_pro .containar .buttom {
+    background-color: blue;
+    border-radius: 4rem;
+    padding: 0.7rem 1.7rem;
+    border: .3rem solid transparent;
+}
+
+.section_ipad_pro .containar .buttom a {
+    color: #fff;
+}
+
+/*  section ipad air */
+
+.section_ipad_air .contact {
+    float: right;
+}
+.section_ipad_air .image{
+    padding-bottom: 7rem;
+}
+.section_ipad_air .containar .contact .title {
+    display: inline-block;
+    margin-top: 15rem;
+    font-size: 5.6rem;
+    line-height: 1.07143;
+    font-weight: 600;
+}
+
+.section_ipad_air .containar .contact .text {
+    margin-top: 1rem;
+    width: 20%;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.section_ipad_air .containar .contact .price {
+    margin: 3rem 0;
+    font-size: 1.5rem;
+}
+
+.section_ipad_air .containar .contact .buttom {
+    background-color: blue;
+    border-radius: 4rem;
+    padding: 0.7rem 1.7rem;
+    border: .3rem solid transparent;
+}
+
+.section_ipad_air .containar .contact .buttom a {
+    color: #fff;
+}
+
+/*  section ipad  */
+.section_ipad_pro .containar .title {
+    display: inline-block;
+    margin-top: 15rem;
+    font-size: 5.6rem;
+    line-height: 1.07143;
+    font-weight: 600;
+}
+
+.section_ipad_pro .containar .text {
+    margin-top: 1rem;
+    display: block;
+    width: 20%;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.section_ipad_pro .containar .price {
+    margin: 3rem 0;
+    font-size: 1.5rem;
+}
+
+.section_ipad_pro .containar .buttom {
+    background-color: blue;
+    border-radius: 4rem;
+    padding: 0.7rem 1.7rem;
+    border: .3rem solid transparent;
+}
+
+.section_ipad_pro .containar .buttom a {
+    color: #fff;
+}
+/*  section one left until the end */
+
+.section_One_left_until_the_end .containar h5 {
+    font-size: 1.3rem;
+    padding-top: 1.5rem;
+    line-height: 3rem;
+    padding-bottom: 0.8rem;
+}
+
+/*  section footer */
+
+.section_footer .containar {
+    border-top: 0.2rem solid #c0c0c0;
+    transition: 0.4s;
+}
+
+.section_footer .containar .shop_and_learn {
+    font-size: 1.5rem;
+    display: inline-block;
+}
+
+.section_footer .containar ul li {
+    list-style-type: none;
+}
+
+.section_footer .containar .shop_and_learn a {
+    color: #777;
+}
+
+.section_footer .containar .shop_and_learn a:hover {
+    color: #111;
+}
+
+/*  servises */
+
+.section_footer .containar .Services {
+    font-size: 1.5rem;
+    display: inline-block;
+    padding-left: 6.5rem;
+    padding-bottom: 4rem;
+    line-height: 3rem;
+}
+
+.section_footer .containar .Services ul li {
+    list-style-type: none;
+}
+
+.section_footer .containar .Services a {
+    color: #777;
+}
+
+.section_footer .containar .Services a:hover {
+    color: #111;
+}
+
+.section_footer .containar .Services_title {
+    display: inline-block;
+}
+
+/*  footer end text */
+
+.section_footer .containar .footer_end_text {
+    padding: 1rem 0;
+    border-bottom: 0.2rem solid #c0c0c0;
+}
+
+.section_footer .containar .footer_end_text a {
+    color: #185ADB;
+}
+
+/*  rulls website */
+
+.section_footer .containar .rulls_website {
+    font-size: 1.4rem;
+    padding: 1rem 0;
+}
